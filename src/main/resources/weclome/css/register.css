@@ -1,0 +1,101 @@
+body {
+    background: url('https://img.zcool.cn/community/01a1595c1860d0a80121ab5d4227c9.png@1280w_1l_2o_100sh.png');
+    background-size: cover;
+    padding-top: 20px;
+}
+.bj{
+
+      position: fixed;  /*将图片固定，不随页面滚动*/
+
+      opacity: 1;  /*修改透明度*/
+
+      height: 100%;
+
+      width: 100%;
+
+      z-index: -1;  /*将图片放在最底层*/
+
+  }
+.contact_form {
+	
+    width: 70%;
+
+    margin: 0 auto; 
+		margin-top:100px;
+	background: #E2EEF0;
+	
+
+}
+
+.contact_form ul {
+    width: 750px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_form li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact_form li:first-child,
+.contact_form li:last-child {
+    border-bottom: 2px solid #333;
+}
+
+span {
+    width: 150px;
+    display: inline-block;
+}
+
+usually input {
+    width: 220px;
+    height: 20px;
+    padding: 5px 8px;
+    border: 1px solid;
+}
+
+textarea {
+    width: 300px;
+    padding: 8px;
+}
+
+.usually input,
+textarea {
+    background: url('../images/attention.png') no-repeat 98% center;
+    box-shadow: 0 10px 15px #eee inset;
+    border-radius: 2px;
+}
+
+.usually input:focus,
+textarea:focus {
+    background: #fff;
+}
+
+.usually input:focus:invalid,
+textarea:focus:invalid {
+    background: url('../images/warn.png') no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+}
+
+.usually input:focus:valid,
+textarea:focus:valid {
+    background: url('../images/right.png') no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+}
+
+input[type=submit] {
+    margin-left: 156px;
+    background-color: #68b12f;
+    border: 1px solid #509111;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
